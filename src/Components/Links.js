@@ -9,6 +9,12 @@ export default function Links(){
             <a id="book__python" href="https://books.zuri.team">Python Books</a>
             <a id="pitch" href="https://background.zuri.team">Background Check for Coders</a>
             <a id="book__design" href="https://books.zuri.team/design-rules ">Design Books</a>
+            <div className="icon-links">
+            <a href="https://slack.com/remiontembeitebi" ><i className="fa fa-slack"></i></a>
+            <a href="https://github.com/tebionyons" className="fa fa-github"></a>
+           
+            </div>
         </div>
+        
     )
 }
