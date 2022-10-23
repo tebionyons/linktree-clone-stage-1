@@ -1,8 +1,15 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
 #profile__img{
   width: 70px;
   height: 70px;
   border-radius: 275px;
   object-fit: cover;
+  margin-bottom: 8px ;
   
   
 }
@@ -136,6 +143,7 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   align-items: baseline;
+  padding-bottom: 1rem;
 }
 
 .vector{
@@ -153,4 +161,59 @@ body{
   color: #667085;
   font-family: 'inter';
   font-weight: 400;
+}
+#header-icon{
+  margin-left: 35rem;
+  border: .5px  solid #667085;
+  border-radius: 18px;
+  border-style: dotted;
+  padding: 7px;
+}
+@media(max-width: 375px){
+  .header{
+   display: flex;
+  width: 300px;
+ margin: 0 auto;
+ margin-left: 0;
+ 
+ 
+  }
+  .links-container{
+    width: 300px;
+    margin-left: 0;
+    margin-top: 0;
+  
+  }
+   #btn-twitter{
+    background: #EAECF0;
+  text-decoration: none;
+  color: black;
+  width: 8rem;
+  padding: 1rem 3rem;
+  font-size: 1em;
+  margin-right: 20px;
+  border-radius: 7px;
+  
+  }
+  .header{
+    padding: 1.5rem 0;
+  }
+
+  #twitter{
+    padding-top: 8px;
+    font-size: 1.5em;
+  }
+  #profile__img{
+     margin-top: 0;
+  }
+  #btn-zuri{
+    background: #EAECF0;
+    text-decoration: none;
+    color: black;
+    width: 8rem;
+    padding: 1rem 3rem;
+    font-size: 1em;
+    margin-right: 20px;
+    border-radius: 7px;
+  }
 }
