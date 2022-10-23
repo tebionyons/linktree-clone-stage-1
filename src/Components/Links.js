@@ -10,7 +10,7 @@ export default function Links(){
             <a id="pitch" href="https://background.zuri.team">Background Check for Coders</a>
             <a id="book__design" href="https://books.zuri.team/design-rules ">Design Books</a>
             <div className="icon-links">
-            <a href="https://slack.com/remiontembeitebi" ><i className="fa fa-slack"></i></a>
+            <a href="https://slack.com/remiontembeitebi" ><img className="slack" src="../images/slak.png"/>  </a>
             <a href="https://github.com/tebionyons" className="fa fa-github"></a>
            
             </div>

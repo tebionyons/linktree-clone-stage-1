@@ -38,6 +38,9 @@ body{
   width: 20rem;
   text-align: center;
   margin-top: .5rem;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 14px;
 }
 
 #btn-zuri{
@@ -48,6 +51,10 @@ body{
   width: 20rem;
   text-align: center;
   margin-top: .5rem;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 14px;
+  
 }
 
 #books{
@@ -58,6 +65,9 @@ body{
   width: 20rem;
   text-align: center;
   margin-top: .5rem;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 14px;
 }
 
 #book__python{
@@ -68,6 +78,9 @@ body{
   width: 20rem;
   text-align: center;
   margin-top: .5rem;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 14px;
 }
 #pitch{
   background: #EAECF0;
@@ -77,6 +90,9 @@ body{
   width: 20rem;
   text-align: center;
   margin-top: .5rem;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 14px;
 }
 #book__design{
   background: #EAECF0;
@@ -86,6 +102,9 @@ body{
   width: 20rem;
   text-align: center;
   margin-top: .5rem;
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .icon-links{
@@ -105,7 +124,33 @@ body{
   font-size: 2rem;
 }
 
-.fa-slack{
+.slack{
   font-size: 2rem;
+  width: 2rem;
   
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: baseline;
+}
+
+.vector{
+  width: 150px;
+  height: 22px;
+}
+
+.ingressive{
+  width: 120px;
+  height: 28px;
+}
+
+#tittle{
+  font-size: 13px;
+  color: #667085;
+  font-family: 'inter';
+  font-weight: 400;
 }
