@@ -1,20 +1,16 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
-  
 }
-#profile__img{
+#profile__img {
   width: 70px;
   height: 70px;
   border-radius: 275px;
   object-fit: cover;
-  margin-bottom: 8px ;
-  
-  
+  margin-bottom: 8px;
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +20,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-body{
+body {
   background: grey;
 }
 
-.links-container{
+.links-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,106 +33,104 @@ body{
   margin: 0 auto;
 }
 
-#btn-twitter{
-  background: #EAECF0;
+#btn-twitter {
+  background: #eaecf0;
   text-decoration: none;
   color: black;
   padding: 1rem 20rem;
   width: 20rem;
   text-align: center;
-  margin-top: .5rem;
-  font-family: 'inter';
+  margin-top: 0.5rem;
+  font-family: "inter";
   font-weight: 600;
   font-size: 14px;
 }
 
-#btn-zuri{
-  background: #EAECF0;
+#btn-zuri {
+  background: #eaecf0;
   text-decoration: none;
   color: black;
   padding: 1rem 20rem;
   width: 20rem;
   text-align: center;
-  margin-top: .5rem;
-  font-family: 'inter';
-  font-weight: 600;
-  font-size: 14px;
-  
-}
-
-#books{
-  background: #EAECF0;
-  text-decoration: none;
-  color: black;
-  padding: 1rem 20rem;
-  width: 20rem;
-  text-align: center;
-  margin-top: .5rem;
-  font-family: 'inter';
+  margin-top: 0.5rem;
+  font-family: "inter";
   font-weight: 600;
   font-size: 14px;
 }
 
-#book__python{
-  background: #EAECF0;
+#books {
+  background: #eaecf0;
   text-decoration: none;
   color: black;
   padding: 1rem 20rem;
   width: 20rem;
   text-align: center;
-  margin-top: .5rem;
-  font-family: 'inter';
-  font-weight: 600;
-  font-size: 14px;
-}
-#pitch{
-  background: #EAECF0;
-  text-decoration: none;
-  color: black;
-  padding: 1rem 20rem;
-  width: 20rem;
-  text-align: center;
-  margin-top: .5rem;
-  font-family: 'inter';
-  font-weight: 600;
-  font-size: 14px;
-}
-#book__design{
-  background: #EAECF0;
-  text-decoration: none;
-  color: black;
-  padding: 1rem 20rem;
-  width: 20rem;
-  text-align: center;
-  margin-top: .5rem;
-  font-family: 'inter';
+  margin-top: 0.5rem;
+  font-family: "inter";
   font-weight: 600;
   font-size: 14px;
 }
 
-.icon-links{
+#book__python {
+  background: #eaecf0;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 20rem;
+  width: 20rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 14px;
+}
+#pitch {
+  background: #eaecf0;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 20rem;
+  width: 20rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 14px;
+}
+#book__design {
+  background: #eaecf0;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 20rem;
+  width: 20rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.icon-links {
   background: #fff;
   text-decoration: none;
   padding: 1rem 20rem;
   width: 20rem;
   text-align: center;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
 }
-.fa-github{
+.fa-github {
   color: black;
   font-size: 2rem;
 }
 
-.slack{
+.slack {
   font-size: 2rem;
   width: 2rem;
-  
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
   background: #fff;
@@ -146,74 +140,86 @@ body{
   padding-bottom: 1rem;
 }
 
-.vector{
+.vector {
   width: 150px;
   height: 22px;
 }
 
-.ingressive{
+.ingressive {
   width: 120px;
   height: 28px;
 }
 
-#tittle{
+#tittle {
   font-size: 13px;
   color: #667085;
-  font-family: 'inter';
+  font-family: "inter";
   font-weight: 400;
 }
-#header-icon{
+#header-icon {
   margin-left: 35rem;
-  border: .5px  solid #667085;
+  border: 0.5px solid #667085;
   border-radius: 18px;
   border-style: dotted;
   padding: 7px;
 }
-@media(max-width: 375px){
-  .header{
-   display: flex;
-  width: 300px;
- margin: 0 auto;
- margin-left: 0;
- 
- 
+@media (max-width: 375px) {
+  .header {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    margin-left: 0;
   }
-  .links-container{
+  .links-container {
     width: 300px;
     margin-left: 0;
     margin-top: 0;
-  
+    height: 100vh;
   }
-   #btn-twitter{
-    background: #EAECF0;
-  text-decoration: none;
-  color: black;
-  width: 8rem;
-  padding: 1rem 3rem;
-  font-size: 1em;
-  margin-right: 20px;
-  border-radius: 7px;
-  
-  }
-  .header{
+
+  .header {
     padding: 1.5rem 0;
   }
 
-  #twitter{
+  #twitter {
     padding-top: 8px;
     font-size: 1.5em;
   }
-  #profile__img{
-     margin-top: 0;
+  #profile__img {
+    margin-top: 0;
   }
-  #btn-zuri{
-    background: #EAECF0;
+  #btn-zuri,
+  #books,
+  #book__python,
+  #pitch,
+  #book__design,
+  #btn-twitter {
+    background: #eaecf0;
     text-decoration: none;
     color: black;
-    width: 8rem;
+    width: 9.5rem;
     padding: 1rem 3rem;
-    font-size: 1em;
-    margin-right: 20px;
+    font-size: 10px;
+    margin-right: 30px;
     border-radius: 7px;
+  }
+  .fa-github {
+    color: black;
+    font-size: 1.2rem;
+  }
+  .slack {
+    width: 1rem;
+  }
+  .footer {
+    display: none;
+    margin-bottom: 0;
+  }
+  .icon-links {
+    display: flex;
+    flex-direction: row;
+   width: 9.5rem;
+   padding: 0 auto;
+
+    
   }
 }
