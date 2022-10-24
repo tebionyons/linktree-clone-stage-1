@@ -252,3 +252,149 @@ body {
     left: 1.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    margin: 0;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+  }
+
+  #twitter {
+    padding-top: 8px;
+    font-size: 1.5em;
+  }
+  #profile__img {
+    margin-top: 0;
+  }
+  #btn-zuri,
+  #books,
+  #book__python,
+  #pitch,
+  #book__design,
+  #btn-twitter {
+    background: #eaecf0;
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    padding: 1.2rem 0rem;
+    font-size: 14px;
+
+    border-radius: 7px;
+  }
+  .fa-github {
+    color: black;
+    font-size: 1.2rem;
+  }
+  .slack {
+    width: 1rem;
+  }
+  .footer {
+    display: none;
+    margin-bottom: 0;
+  }
+  .icon-links {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    padding: 50px 0;
+  }
+
+  #header-icon {
+    margin-left: 0;
+    border: 0.5px solid #667085;
+    border-radius: 18px;
+    border-style: dotted;
+    padding: 7px;
+    display: none;
+  }
+  #smallheader-icon {
+    display: block;
+    margin-left: 21rem;
+    position: relative;
+    top: 1.2rem;
+    left: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    margin: 0;
+    width: 100%;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    width: 100%;
+  }
+
+  #twitter {
+    padding-top: 8px;
+    font-size: 1.5em;
+  }
+  #profile__img {
+    margin-top: 0;
+  }
+  #btn-zuri,
+  #books,
+  #book__python,
+  #pitch,
+  #book__design,
+  #btn-twitter {
+    background: #eaecf0;
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    padding: 1.2rem 0rem;
+    font-size: 14px;
+
+    border-radius: 7px;
+  }
+  .fa-github {
+    color: black;
+    font-size: 1.2rem;
+  }
+  .slack {
+    width: 1rem;
+  }
+  .footer {
+    display: none;
+    margin-bottom: 0;
+  }
+  .icon-links {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    padding: 50px 0;
+  }
+
+  #header-icon {
+    margin-left: 0;
+    border: 0.5px solid #667085;
+    border-radius: 18px;
+    border-style: dotted;
+    padding: 7px;
+    display: none;
+  }
+
+  .smallheader-icon {
+    position: relative;
+    top: 0%;
+    left: 35%;
+  }
+}
