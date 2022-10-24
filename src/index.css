@@ -49,7 +49,7 @@ body {
   font-size: 14px;
 }
 
-#smallheader-icon {
+.smallheader-icon {
   display: none;
 }
 
@@ -242,18 +242,14 @@ body {
     border-radius: 18px;
     border-style: dotted;
     padding: 7px;
-    display: none;
-  }
-  #smallheader-icon {
-    display: block;
-    margin-left: 21rem;
     position: relative;
-    top: 1.2rem;
-    left: 1.5rem;
+    left: 30%;
+    
   }
+ 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
   body {
     margin: 0;
   }
@@ -317,12 +313,11 @@ body {
     padding: 7px;
     display: none;
   }
-  #smallheader-icon {
-    display: block;
-    margin-left: 21rem;
-    position: relative;
-    top: 1.2rem;
-    left: 1.5rem;
+  .smallheader-icon {
+   display: block;
+   position: relative;
+    top: 0%;
+    left: 35%;
   }
 }
 @media (max-width: 480px) {
@@ -393,6 +388,7 @@ body {
   }
 
   .smallheader-icon {
+    display: block;
     position: relative;
     top: 0%;
     left: 35%;
