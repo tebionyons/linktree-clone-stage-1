@@ -1,15 +1,7 @@
-
-
-
-body{
-  margin: 0;
-  box-sizing: border-box;
-}
-
 * {
   padding: 0;
   margin: 0;
-  
+  box-sizing: border-box;
 }
 #profile__img {
   width: 70px;
@@ -17,22 +9,17 @@ body{
   border-radius: 275px;
   object-fit: cover;
   margin-bottom: 8px;
-
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3rem;
   background: #fff;
   padding: 2rem 0;
-  max-width: 1200px;
-  margin: 0 auto;
 
- 
-  
- 
+  width: 100%;
+  margin: 0;
 }
 body {
   background: grey;
@@ -43,32 +30,39 @@ body {
   flex-direction: column;
   align-items: center;
   background: #fff;
-  max-width: 1200px;
-  margin: 0 auto;
-  
+
+  width: 100%;
 }
 
 #btn-twitter {
   background: #eaecf0;
   text-decoration: none;
   color: black;
-  padding: 1rem 20rem;
-  width: 320px;
-  text-align: center;
+  width: 60%;
+  padding: 15px 0;
+  border-radius: 9px;
   margin-top: 0.5rem;
+  text-align: center;
+
   font-family: "inter";
   font-weight: 600;
   font-size: 14px;
+}
+
+#smallheader-icon {
+  display: none;
 }
 
 #btn-zuri {
   background: #eaecf0;
   text-decoration: none;
   color: black;
-  padding: 1rem 20rem;
-  width: 320px;
+  width: 60%;
+  padding: 15px 0;
+
   text-align: center;
-  margin-top: 0.5rem;
+  border-radius: 9px;
+  margin-top: 0.9rem;
   font-family: "inter";
   font-weight: 600;
   font-size: 14px;
@@ -78,10 +72,12 @@ body {
   background: #eaecf0;
   text-decoration: none;
   color: black;
-  padding: 1rem 20rem;
-  width: 320px;
+  width: 60%;
+  padding: 15px 0;
+  border-radius: 9px;
+  margin-top: 0.9rem;
   text-align: center;
-  margin-top: 0.5rem;
+
   font-family: "inter";
   font-weight: 600;
   font-size: 14px;
@@ -91,10 +87,12 @@ body {
   background: #eaecf0;
   text-decoration: none;
   color: black;
-  padding: 1rem 20rem;
-  width: 320px;
+  width: 60%;
+  padding: 15px 0;
+  border-radius: 9px;
+  margin-top: 0.9rem;
   text-align: center;
-  margin-top: 0.5rem;
+
   font-family: "inter";
   font-weight: 600;
   font-size: 14px;
@@ -103,10 +101,12 @@ body {
   background: #eaecf0;
   text-decoration: none;
   color: black;
-  padding: 1rem 20rem;
-  width: 320px;
+  width: 60%;
+  padding: 15px 0;
+
   text-align: center;
-  margin-top: 0.5rem;
+  border-radius: 9px;
+  margin-top: 0.9rem;
   font-family: "inter";
   font-weight: 600;
   font-size: 14px;
@@ -115,20 +115,20 @@ body {
   background: #eaecf0;
   text-decoration: none;
   color: black;
-  padding: 1rem 20rem;
-  width: 320px;
+  width: 60%;
+  padding: 15px 0;
   text-align: center;
-  margin-top: 0.5rem;
+  border-radius: 9px;
+  margin-top: 0.9rem;
   font-family: "inter";
   font-weight: 600;
   font-size: 14px;
 }
 
 .icon-links {
-
   text-decoration: none;
-  padding: 1rem 20rem;
-  width: 320px;
+  width: 60%;
+  padding: 15px 0;
   text-align: center;
   margin-top: 0.5rem;
   display: flex;
@@ -149,10 +149,8 @@ body {
   display: flex;
   justify-content: space-around;
   background: #fff;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: baseline;
-  padding-bottom: 1rem;
+  width: 100%;
+  padding: 20px 0;
 }
 
 .vector {
@@ -177,19 +175,18 @@ body {
   border-radius: 18px;
   border-style: dotted;
   padding: 7px;
+  position: relative;
+  top: 1rem;
+  right: 0.2rem;
 }
 
 @media (max-width: 800px) {
-
-  body{
+  body {
     margin: 0;
   }
   .header {
     display: flex;
-  margin: 0;
- 
-  
-    
+    margin: 0;
   }
 
   .links-container {
@@ -197,18 +194,11 @@ body {
     flex-direction: column;
     align-items: center;
     background: #fff;
-    margin: 0;
-   
-    
-    
-    
-    
   }
 
   #twitter {
     padding-top: 8px;
     font-size: 1.5em;
-  
   }
   #profile__img {
     margin-top: 0;
@@ -222,10 +212,10 @@ body {
     background: #eaecf0;
     text-decoration: none;
     color: black;
-    width: 75%;
-    padding: 1rem 3rem;
-    font-size: 10px;
-    
+    width: 80%;
+    padding: 1.2rem 0rem;
+    font-size: 14px;
+
     border-radius: 7px;
   }
   .fa-github {
@@ -238,14 +228,12 @@ body {
   .footer {
     display: none;
     margin-bottom: 0;
-   
   }
   .icon-links {
     display: flex;
     flex-direction: row;
     width: 75%;
-    padding: 0 auto;
-    margin-top: 0;
+    padding: 50px 0;
   }
 
   #header-icon {
@@ -256,5 +244,11 @@ body {
     padding: 7px;
     display: none;
   }
-
+  #smallheader-icon {
+    display: block;
+    margin-left: 21rem;
+    position: relative;
+    top: 1.2rem;
+    left: 1.5rem;
+  }
 }
