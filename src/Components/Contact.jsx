@@ -3,6 +3,6 @@ import React from 'react'
 
 export default function Contact(){
     return(
-        <div>hi</div>
+        <h1>hi</h1>
     )
-}
+    }

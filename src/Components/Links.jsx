@@ -26,6 +26,9 @@ export default function Links() {
       <a id="book__design" href="https://books.zuri.team/design-rules ">
         Design Books
       </a>
+      <Link id="contact" to="/contact">
+        Contact Me
+      </Link>
       <div className="icon-links">
         <a href="https://slack.com/remiontembeitebi">
           <img className="slack" alt="slack-img" src="../images/slak.png" />{" "}
@@ -33,9 +36,6 @@ export default function Links() {
         <a href="https://github.com/tebionyons" className="fa fa-github">
           {" "}
         </a>
-        <Link to="./Contact">
-          <button>Contact</button>
-        </Link>
       </div>
     </div>
   );

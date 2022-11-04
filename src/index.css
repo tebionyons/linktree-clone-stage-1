@@ -25,6 +25,7 @@ body {
   background: grey;
 }
 
+
 .links-container {
   display: flex;
   flex-direction: column;
@@ -53,7 +54,7 @@ body {
   display: none;
 }
 
-#btn-zuri {
+#btn-zuri{
   background: #eaecf0;
   text-decoration: none;
   color: black;
@@ -111,7 +112,8 @@ body {
   font-weight: 600;
   font-size: 14px;
 }
-#book__design {
+#book__design,
+#contact{
   background: #eaecf0;
   text-decoration: none;
   color: black;
@@ -189,6 +191,7 @@ body {
     margin: 0;
   }
 
+  
   .links-container {
     display: flex;
     flex-direction: column;
@@ -208,7 +211,9 @@ body {
   #book__python,
   #pitch,
   #book__design,
-  #btn-twitter {
+  #btn-twitter,
+  #contact
+  {
     background: #eaecf0;
     text-decoration: none;
     color: black;
@@ -277,7 +282,9 @@ body {
   #book__python,
   #pitch,
   #book__design,
-  #btn-twitter {
+  #btn-twitter
+  
+   {
     background: #eaecf0;
     text-decoration: none;
     color: black;
@@ -350,7 +357,9 @@ body {
   #book__python,
   #pitch,
   #book__design,
-  #btn-twitter {
+  #btn-twitter,
+  #contact
+   {
     background: #eaecf0;
     text-decoration: none;
     color: black;
@@ -372,10 +381,10 @@ body {
     margin-bottom: 0;
   }
   .icon-links {
-    display: flex;
-    flex-direction: row;
-    width: 75%;
-    padding: 50px 0;
+   display: flex;
+   flex-direction: row;
+   
+
   }
 
   #header-icon {
@@ -394,3 +403,4 @@ body {
     left: 35%;
   }
 }
+
