@@ -21,7 +21,7 @@ export default function Contact() {
   }
 
   return (
-    <section className="contact__form">
+    <div className="contact__form">
     <form action="" id="contact-form">
         <div className="contact-description">
       <h3 className="contact__" >Contact Me</h3>
@@ -72,8 +72,10 @@ export default function Contact() {
         </div>
       </label>
       <button id="btn__submit">Send message</button>
+      
     </form>
+    
     <Footer/>
-</section>
+</div>
   );
 }
