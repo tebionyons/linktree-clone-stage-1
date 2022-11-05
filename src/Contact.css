@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'inter';
+}
+#first_name,
+#second_name,
+#email,
+#message {
+  display: flex;
+  flex-direction: column;
+}
+
+#first_name,
+#second_name {
+  width: 348px;
+  height: 42px;
+  border-radius: 8px;
+  padding: 10px 14px 10px 14px;
+  margin-top: .3rem;
+  border: 1px solid #D0D5DD;
+}
+.first-and-second-name {
+  display: flex;
+  gap: 24px;
+  margin: 0.8rem 8rem;
+  padding-bottom: 0;
+}
+
+.contact-description {
+  margin: 0 8rem;
+  padding-top: 4rem;
+}
+
+#email {
+  width: 720px;
+  height: 42px;
+  border-radius: 8px;
+  margin: 0 8rem;
+  padding: 12px 14px 12px 14px;
+  margin-bottom: 1rem;
+  margin-top: .3rem;
+  border: 1px solid #D0D5DD;
+}
+
+#message {
+  height: 132px;
+  width: 720px;
+  border-radius: 8px;
+  margin: 0 8rem;
+  padding: 12px 14px 12px 14px;
+  margin-top: .3rem;
+  border: 1px solid #D0D5DD;
+}
+
+.email {
+  margin: 0 8rem;
+}
+.radio_button{
+    display: flex;
+    margin: 0 8rem;
+    margin-top: .7rem;
+    gap: .3rem;
+}
+
+.contact-me {
+  padding: 1rem 0;
+  font-size: 15px;
+  color: #475467;
+}
+
+#btn__submit{
+ width: 720px;
+ padding: 12px 20px 12px 20px;
+ margin: 0 8rem;
+ border-radius: 8px;
+ margin-top: .7rem;
+ background: #1570EF;
+ color: #fff;
+ font-size: 16px;
+ font-weight: 600;
+ border: none;
+}
+.firstname,
+.secondname,
+.email,
+.message{
+    font-size: 14px;
+    color: #344054;
+    font-weight: 500;
+}
+.contact__form{
+    background: #fff;
+}
+#contact-form{
+    margin-left: 12rem;
+    margin-bottom: 3rem;
+    
+}
+.contact__{
+    font-size: 27px;
+    font-weight: 600;
+}
