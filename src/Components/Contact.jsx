@@ -1,14 +1,16 @@
-import React from "react";
+import {useState} from "react"
 import "../Contact.css";
 import Footer from "./Footer";
+import React from "react";
+
 
 
 export default function Contact() {
-  const [formData, setFormData] = React.useState({
-    FirstName: "",
-    SecondName: "",
-    Email: "",
-    Message: "",
+  const [formData, setFormData] = useState({
+    firstName: "",
+    secondName: "",
+    email: "",
+    message: "",
   });
 
   function handleChange(event){
@@ -19,10 +21,18 @@ export default function Contact() {
       }
     })
   }
+  const handleSubmit = (event) =>{
+    event.preventDefault();
+    setFormData({ firstName: "",
+    secondName: "",
+    email: "",
+    message: "",})
+    
+  }
 
   return (
     <div className="contact__form">
-    <form action="" id="contact-form">
+    <form  id="contact-form" onSubmit={handleSubmit}>
         <div className="contact-description">
       <h3 className="contact__" >Contact Me</h3>
       <p className="contact-me">Hi there, contact me to ask about anything you have in mind.</p>
@@ -36,7 +46,7 @@ export default function Contact() {
           name="firstName"
           id="first_name"
           onChange={handleChange}
-          value={formData.FirstName}
+          value={formData.firstName}
         />
       </label>
       <div>
@@ -48,23 +58,24 @@ export default function Contact() {
           name="secondName"
           id="second_name"
           onChange={handleChange}
-          value={formData.SecondName}
+          value={formData.secondName}
         />
       </label>
       </div>
       </div>
       <label htmlFor="email" className="email">
         Email
-        <input type="email" onChange={handleChange} placeholder="yourname@email.com" id="email" value={formData.Email} />
+        <input type="email" onChange={handleChange} placeholder="yourname@email.com" name="email" id="email" value={formData.email} />
       </label>
       <label htmlFor="message" className="message">
         Message
         <textarea
           placeholder="Send me a message and l will reply you as soon as possible"
-          value={formData.Message}
-          
+          value={formData.message}
+          name="message"
           id="message"
           onChange={handleChange}
+          
         />
         <div className="radio_button">
         <input type="radio"/>
