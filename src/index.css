@@ -377,8 +377,10 @@ body {
     width: 1rem;
   }
   .footer {
-    display: none;
-    margin-bottom: 0;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0 3rem;
+    
   }
   .icon-links {
    display: flex;
