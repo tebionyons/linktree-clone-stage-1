@@ -414,10 +414,10 @@ body {
     top: 0%;
     left: 35%;
   }
-  .footer{
-      display: none;
-  }
   
+  #horizon{
+    width: 80%;
+  }
 }
 
 

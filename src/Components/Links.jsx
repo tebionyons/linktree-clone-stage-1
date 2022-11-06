@@ -37,7 +37,7 @@ export default function Links() {
           {" "}
         </a>
       </div>
-      <hr className="horizontal_line"/>
+      <hr className="horizontal_line" id="horizon"/>
     </div>
   );
 }
