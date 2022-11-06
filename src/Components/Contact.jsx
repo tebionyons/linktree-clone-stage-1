@@ -56,7 +56,7 @@ export default function Contact() {
         Last name
         <input
           type="text"
-          placeholder="Enter your second name"
+          placeholder="Enter your last name"
           name="secondName"
           id="last_name"
           onChange={handleChange}
