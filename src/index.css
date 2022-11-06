@@ -36,6 +36,11 @@ body {
 
   width: 100%;
 }
+.horizontal_line{
+  width: 80%;
+  margin: auto;
+  border: 1px solid #d0d5dd;
+}
 
 #btn-twitter {
   background: #eaecf0;
@@ -412,6 +417,7 @@ body {
   .footer{
       display: none;
   }
+  
 }
 
 

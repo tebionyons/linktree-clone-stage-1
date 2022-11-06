@@ -90,7 +90,7 @@ export default function Contact() {
       <button id="btn__submit">Send message</button>
       
     </form>
-    
+    <hr className="horizontal_line"/>
     <Footer/>
 </div>
   );

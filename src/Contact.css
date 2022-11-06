@@ -26,6 +26,7 @@ body {
   border: 1px solid #d0d5dd;
 }
 
+
 .first-and-second-name {
   display: flex;
   gap: 24px;
@@ -86,6 +87,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   border: none;
+ 
 }
 .firstname,
 .secondname,
@@ -102,11 +104,17 @@ body {
 }
 #contact-form {
   margin-left: 12rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+  
 }
 .contact__ {
   font-size: 27px;
   font-weight: 600;
+}
+.horizontal_line{
+  width: 80%;
+  margin: auto;
+  border: 1px solid #d0d5dd;
 }
 
 @media (max-width: 480px) {
@@ -117,7 +125,7 @@ body {
 
   #contact-form {
     margin-left: 0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   #first_name,
@@ -192,5 +200,11 @@ body {
   .contact-description {
     margin: 0 0rem;
     padding-top: 4rem;
+  }
+  .horizontal_line{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #d0d5dd;
+    margin-bottom: 2rem;
   }
 }
