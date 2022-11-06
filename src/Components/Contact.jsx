@@ -53,12 +53,12 @@ export default function Contact() {
       </label>
       <div>
       <label htmlFor="secondName" className="secondname">
-        Second name
+        Last name
         <input
           type="text"
           placeholder="Enter your second name"
           name="secondName"
-          id="second_name"
+          id="last_name"
           onChange={handleChange}
           value={formData.secondName}
         />
