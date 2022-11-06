@@ -5,12 +5,14 @@ import React from "react";
 
 
 
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     firstName: "",
     secondName: "",
     email: "",
     message: "",
+    providingData: true
   });
 
   function handleChange(event){
@@ -77,8 +79,11 @@ export default function Contact() {
           onChange={handleChange}
           
         />
-        <div className="radio_button">
-        <input type="radio"/>
+        <div className="check_box">
+        <input type="checkbox" 
+        name="providingData"
+        onChange={handleChange}
+        value={formData.providingData}/>
         <p>You agree to providing your data to name who may contact you.</p>
         </div>
       </label>

@@ -62,7 +62,7 @@ body {
 .email {
   padding: 0 8rem;
 }
-.radio_button {
+.check_box {
   display: flex;
   margin: 0 8rem;
   margin-top: 0.7rem;
@@ -171,7 +171,7 @@ body {
     margin-top: 0.3rem;
     border: 1px solid #d0d5dd;
   }
-  .radio_button {
+  .check_box {
     display: flex;
     margin: 0 0rem;
     margin-top: 0.7rem;

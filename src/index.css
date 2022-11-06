@@ -326,6 +326,9 @@ body {
     top: 0%;
     left: 35%;
   }
+  .footer{
+    display: none;
+}
 }
 @media (max-width: 480px) {
   body {
@@ -403,6 +406,9 @@ body {
     position: relative;
     top: 0%;
     left: 35%;
+  }
+  .footer{
+      display: none;
   }
 }
 
