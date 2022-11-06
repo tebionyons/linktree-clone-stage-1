@@ -12,7 +12,7 @@ export default function Contact() {
     secondName: "",
     email: "",
     message: "",
-    providingData: true
+    providingData: false
   });
 
   function handleChange(event){
@@ -83,8 +83,8 @@ export default function Contact() {
         <input type="checkbox" 
         name="providingData"
         onChange={handleChange}
-        value={formData.providingData}/>
-        <p>You agree to providing your data to name who may contact you.</p>
+        checked={formData.providingData}/>
+        <p>You agree to providing your data to Tebi who may contact you.</p>
         </div>
       </label>
       <button id="btn__submit">Send message</button>
